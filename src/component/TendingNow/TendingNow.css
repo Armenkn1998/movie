@@ -1,0 +1,25 @@
+.TendingNow_box .box {
+    position: absolute;
+    font-size: 22px;
+    bottom: 28%;
+    color:aliceblue
+}
+.TendingNow{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll !important;
+    width: 100%;
+    height: 28%;
+}
+.TendingNow::-webkit-scrollbar{
+    display: none;
+}
+
+.TendingNow div{
+    height: 100%; 
+}
+.TendingNow div  img{
+   width: 180px;
+   height: 100%; 
+
+}
